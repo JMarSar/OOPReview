@@ -46,4 +46,28 @@ export class Mobile{
         }
 
         // Setters
+        setName(name:string){
+                this.name = name
+        }
+        setModel(model:string){
+                this.model = model
+        }
+        setTrademark(trademark:string){
+                this.trademark = trademark
+        }
+        setSdSize(sdSize:number){
+                this.sdSize = sdSize
+        }
+        setColor(color:string){
+                this.color = color
+        }
+        setIs5G(is5G:boolean){
+                this.is5G = is5G
+        }
+        setCameraNumber(cameraNumber:number){
+                this.cameraNumber = cameraNumber
+        }
+        setPrice(price:number){
+                this.price = price
+        }
 }
