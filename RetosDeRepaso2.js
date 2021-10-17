@@ -62,6 +62,10 @@ var Mobile = /** @class */ (function () {
     Mobile.prototype.setPrice = function (price) {
         this.price = price;
     };
+    // Metodos
+    Mobile.prototype.printAll = function () {
+        console.log("The characteristics of the mobile " + this.name + " are:\n                                Name: " + this.name + "\n                                Model: " + this.model + "\n                                Trademark: " + this.trademark + "\n                                SD Size (GB): " + this.sdSize + "\n                                Color: " + this.color + "\n                                Is 5G?: " + this.is5G + "\n                                Number Of Cameras: " + this.cameraNumber);
+    };
     return Mobile;
 }());
 exports.Mobile = Mobile;

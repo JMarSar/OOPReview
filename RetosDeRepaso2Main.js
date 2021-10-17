@@ -12,3 +12,4 @@ Nokia3210.setCameraNumber(4);
 console.log(Nokia3210);
 console.log(Iphone3G);
 console.log(SamsunGalaxy10);
+Nokia3210.printAll();

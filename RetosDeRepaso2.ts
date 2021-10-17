@@ -70,4 +70,18 @@ export class Mobile{
         setPrice(price:number){
                 this.price = price
         }
+
+        // Metodos
+        printAll(){
+                console.log(
+                        `The characteristics of the mobile ${this.name} are:
+                                Name: ${this.name}
+                                Model: ${this.model}
+                                Trademark: ${this.trademark}
+                                SD Size (GB): ${this.sdSize}
+                                Color: ${this.color}
+                                Is 5G?: ${this.is5G}
+                                Number Of Cameras: ${this.cameraNumber}`
+                )
+        }
 }
