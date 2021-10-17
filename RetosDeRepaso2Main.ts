@@ -8,8 +8,8 @@ console.log(Nokia3210)
 console.log(Iphone3G)
 console.log(SamsunGalaxy10)
 
-Nokia3210.is5G = true
-Nokia3210.cameraNumber = 4
+Nokia3210.setIs5G(true)
+Nokia3210.setCameraNumber(4)
 
 console.log(Nokia3210)
 console.log(Iphone3G)
