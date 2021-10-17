@@ -1,12 +1,12 @@
 export class Mobile{
-        name: string;
-        model: string;
-        trademark:string;
-        sdSize:number;
-        color:string;
-        is5G:boolean;
-        cameraNumber:number;
-        price:number;
+        private name: string;
+        private model: string;
+        private trademark:string;
+        private sdSize:number;
+        private color:string;
+        private is5G:boolean;
+        private cameraNumber:number;
+        private price:number;
 
         constructor(name:string, model:string, trademark:string, sdSize:number, color:string, is5G:boolean, cameraNumber:number, price:number){
                 this.name = name;
@@ -18,4 +18,32 @@ export class Mobile{
                 this.cameraNumber = cameraNumber;
                 this.price = price;
         }
+
+        // Getters
+        getName():string{
+                return this.name
+        }
+        getModel():string{
+                return this.model
+        }
+        getTrademark():string{
+                return this.trademark
+        }
+        getSdSize():number {
+                return this.sdSize
+        }
+        getColor():string{
+                return this.color
+        }
+        getIs5G():boolean{
+                return this.is5G
+        }
+        getCameraNumber():number{
+                return this.cameraNumber
+        }
+        getPrice():number{
+                return this.price
+        }
+
+        // Setters
 }
